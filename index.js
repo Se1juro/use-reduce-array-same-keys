@@ -43,10 +43,6 @@ try {
 
         return acc;
       }, {});
-      console.log(
-        "🚀 ~ file: index.js ~ line 46 ~ newRegistros ~ newRegistros",
-        newRegistros
-      );
       const registrosToPush = newRegistros[el.DocumentoEmpresa];
       hash[el.DocumentoEmpresa].Registros = [registrosToPush];
       acc.push(hash[el.DocumentoEmpresa]);
